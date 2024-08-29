@@ -1,0 +1,292 @@
+.background_bubble{
+    background-image: url("../assets/Image/Background_Bubble.png");
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+    width: 100%;
+}
+.about-container {
+    max-width: 1600px;
+    display: flex;
+    font-family: "Poppins", sans-serif;
+    padding-top: 113px;
+    padding-left: 150px;
+    padding-right: 145px;
+}
+
+.about-left {
+    width: 80%;
+
+}
+
+.about-left h4 {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    color: #ff64ae;
+}
+
+.about-left h1 {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 45px;
+    color: #091156;
+    margin-top: -9px;
+    width: 100%;
+    white-space: nowrap;
+}
+
+.about-left p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 1.6px;
+    color: #8b8b8b;
+    margin-top: -5px;
+    max-width: 480px;
+}
+
+.about-left p:nth-of-type(2) {
+    margin-top: 23px;
+}
+
+.about-button {
+    display: flex;
+    padding-top: 38px;
+}
+
+.btn-learnmore {
+    width: 200px;
+    height: 57px;
+    border-radius: 50px;
+    background-color: #FF64AE;
+    border: none;
+    font-size: 16px;
+    color: #ffffff;
+    letter-spacing: 1.6px;
+    font-weight: 600;
+    line-height: 24px;
+    font-family: "Poppins", sans-serif;
+}
+
+.about-play {
+    display: flex;
+    padding-left: 40px;
+}
+
+.about-play p {
+    white-space: nowrap;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 1.6px;
+    color: #8b8b8b;
+    padding-left: 10px;
+    margin-top: 15px;
+}
+
+.about-play img {
+    width: 100%;
+}
+
+.about-right {
+    width: 100%;
+}
+
+.about-right img {
+    width: 102%;
+    object-fit: cover;
+    padding-left: 57px;
+    margin-top: -9px;
+}
+
+/* @media (min-width: 1200px) and (max-width: 1439px){
+
+} */
+
+@media (min-width: 961px) and (max-width: 1200px) {
+    .about-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .about-left {
+        text-align: center;
+    }
+
+    .about-left p {
+        width: 100%;
+        max-width: 700px;
+    }
+
+    .about-button {
+        display: flex;
+        justify-content: center;
+    }
+
+    .about-right img {
+        text-align: center;
+        padding: 0;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 961px) {
+    .about-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+
+    .about-left {
+        text-align: center;
+    }
+
+    .about-left p {
+        width: 100%;
+        max-width: 700px;
+    }
+
+    .about-button {
+        display: flex;
+        justify-content: center;
+    }
+
+    .about-right {
+        width: 80%;
+    }
+
+    .about-right img {
+        text-align: center;
+        padding: 0;
+    }
+}
+
+@media (min-width: 500px) and (max-width: 768px) {
+    .about-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .about-left {
+        text-align: center;
+    }
+
+    .about-left h1 {
+        font-size: 25px;
+    }
+
+    .about-left p {
+        font-size: 12px;
+    }
+
+    .about-left p {
+        width: 100%;
+        max-width: 700px;
+    }
+
+    .about-button {
+        display: flex;
+        justify-content: center;
+    }
+
+    .about-right {
+        width: 60%;
+    }
+
+    .about-right img {
+        text-align: center;
+        padding: 0;
+    }
+
+    .btn-learnmore {
+        width: 150px;
+        height: 40px;
+        font-size: 12px;
+    }
+
+    .about-play p {
+        font-size: 12px;
+    }
+
+
+}
+
+@media (min-width: 350px) and (max-width: 500px){
+    .about-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .about-left {
+        text-align: center;
+    }
+
+    .about-left h4{
+        font-size: 12px;
+    }
+
+    .about-left h1 {
+        font-size: 18px;
+        white-space: normal;
+    }
+
+    .about-left p {
+        font-size: 12px;
+    }
+
+    .about-left p {
+        width: 100%;
+        max-width: 700px;
+    }
+
+    .about-button {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .about-right {
+        width: 80%;
+    }
+
+    .about-right img {
+        text-align: center;
+        padding: 0;
+    }
+
+    .btn-learnmore {
+        width: 150px;
+        height: 40px;
+        font-size: 12px;
+    }
+
+    .about-play{
+        padding: 0;
+    }
+
+    .about-play p {
+        font-size: 12px;
+        white-space: normal;
+    }
+
+    .about-play img{
+        width: 50%;
+    }
+
+
+}
