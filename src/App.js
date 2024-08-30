@@ -5,6 +5,8 @@ import Slider from './components/Slider';
 import Services from './components/Services';
 import About from './components/About';
 import Proteams from './components/Proteams';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 
 function App() {
@@ -23,7 +25,19 @@ function App() {
     </div>
 
     <Proteams/>
+
+    <div className='background_bubble_1'>
+    <Contact/>
+    </div>
+
+    <Footer/>
+
+
     </>
+
+  
+
+
   );
 }
 

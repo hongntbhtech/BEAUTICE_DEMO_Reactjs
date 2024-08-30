@@ -290,3 +290,84 @@
 
 
 }
+
+@media screen and (max-width: 350px){
+    .about-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .about-left {
+        text-align: center;
+    }
+
+    .about-left h4{
+        font-size: 12px;
+    }
+
+    .about-left h1 {
+        font-size: 18px;
+        white-space: normal;
+    }
+
+    .about-left p {
+        font-size: 12px;
+    }
+
+    .about-left p {
+        width: 100%;
+        max-width: 700px;
+    }
+
+    .about-button {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .about-right {
+        width: 80%;
+    }
+
+    .about-right img {
+        text-align: center;
+        padding: 0;
+    }
+
+    .btn-learnmore {
+        width: 150px;
+        height: 25px;
+        font-size: 12px;
+    }
+
+    .about-play{
+        padding: 0;
+    }
+
+    .about-play p {
+        font-size: 12px;
+        white-space: normal;
+    }
+
+    .about-play img{
+        width: 20%;
+        height: auto;
+    }
+
+}
+
+@media screen and (min-width: 1600px) {
+
+    .about-container {
+        padding: 0 145px;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+  }

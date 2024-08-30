@@ -5,7 +5,7 @@
 
 .service-title{
     text-align: center;
-    padding-top: 114px;
+    padding-top: 112px;
     max-width: 850px;
     margin: 0 auto;
 }
@@ -33,7 +33,7 @@
     line-height: 24px;
     letter-spacing: 1.6px;
     color: #8b8b8b;
-    margin-top:17px;
+    margin-top:18px;
 }
 
 .service-box{
@@ -161,4 +161,45 @@
         font-size: 25px;
     }
 }
+
+
+@media screen and (max-width: 500px){
+    .service-box{
+        display:  flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        gap: 50px;
+    }
+
+    .service-box-left, .service-box-mid, .service-box-right{
+        max-width: 300px;
+    }
+
+    .service-title p{
+        padding: 0 30px;
+        font-size: 12px;
+    }
+
+    .service-title h4{
+        font-size: 12px;
+    }
+
+
+    .service-title h1{
+        font-size: 25px;
+    }
+}
+
+@media screen and (min-width: 1600px) {
+
+    .service-container {
+        padding: 0 145px;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+  }
+
 
