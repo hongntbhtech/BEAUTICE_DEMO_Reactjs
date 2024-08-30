@@ -255,7 +255,7 @@
 
     .contact-right h1{
         width: 100%;
-        font-size: 25px;
+        font-size: 20px;
     }
 
     .contact-right h5{
@@ -315,3 +315,21 @@
     }
 }
 
+
+@media screen and (min-width: 1600px) {
+
+    .contact-container {
+        padding: 0 145px;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .contact-left{
+        padding-left: 150px;
+    }
+
+    .contact-right{
+        padding-right: 150px;
+    }
+
+  }

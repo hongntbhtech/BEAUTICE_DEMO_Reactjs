@@ -21,7 +21,7 @@ function Footer() {
                             <div className='footer-1'>
                                 <img src={footer_logo} alt='abc'></img>
                                 <p>
-                                    Beautice <span style={{ fontSize: '16px', lineHeight: '24px', letterSpacing: '1.6px', fontWeight: 400 }}>
+                                    Beautice <span className='p-children' style={{ fontSize: '16px', lineHeight: '24px', letterSpacing: '1.6px', fontWeight: 400 }}>
                                         is a Beauty Clinic WordPress Theme.
                                     </span>
                                 </p>

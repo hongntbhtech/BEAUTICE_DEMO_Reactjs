@@ -370,4 +370,12 @@
         margin: 0 auto;
     }
 
+    .about-left{
+        padding-left: 150px;
+    }
+
+    .about-right{
+        padding-right: 150px;
+    }
+
   }

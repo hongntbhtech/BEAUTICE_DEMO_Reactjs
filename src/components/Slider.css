@@ -344,4 +344,12 @@
         margin: 0 auto;
     }
 
+    .slider-left{
+        padding-left: 150px;
+    }
+
+    .slider-right{
+        padding-right: 150px;
+    }
+
   }

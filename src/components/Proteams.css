@@ -171,6 +171,10 @@
         font-size: 12px;
     }
 
+    .proteams-title h1{
+        font-size: 20px;
+    }
+
     .proteams-box-left:hover, .proteams-box-mid:hover, .proteams-box-right:hover{
         box-shadow: 0px 0px 50px 25px #f6f7ff;
         min-width: 300px;
@@ -216,6 +220,12 @@
     }
 }
 
-@media (min-width: 961px) and (max-width: 1200px) {
-    
-}
+@media screen and (min-width: 1600px) {
+
+    .proteams-container {
+        padding: 0 145px;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+  }
